@@ -1,0 +1,12 @@
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.AssemblyInfoInputs.cache
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.AssemblyInfo.cs
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.csproj.CoreCompileInputs.cache
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.exe
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.deps.json
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.runtimeconfig.json
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.runtimeconfig.dev.json
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.dll
+C:\Users\deepthi.np\source\repos\DEMO2\Company\bin\Debug\netcoreapp3.1\Company.pdb
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.dll
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.pdb
+C:\Users\deepthi.np\source\repos\DEMO2\Company\obj\Debug\netcoreapp3.1\Company.genruntimeconfig.cache
