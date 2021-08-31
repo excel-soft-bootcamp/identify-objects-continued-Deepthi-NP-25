@@ -4,7 +4,7 @@
 - Does not have standard html tags
 - To understand the concept we need to create a simple user control, which will work as footer for the web pages.<br>
 Syntax:-<br>
-- Control directive:-
+- Control directive:-<br>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="footer.ascx.cs" 
    Inherits="customcontroldemo.footer" %> <br>
 - Register directive:-<br>
