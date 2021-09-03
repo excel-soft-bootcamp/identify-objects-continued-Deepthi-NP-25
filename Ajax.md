@@ -5,7 +5,22 @@
 - The control toolbox in the Visual Studio IDE contains a group of controls called the 'AJAX Extensions':- 
 - Among them are:-
 - Update panel control
-- Script manager control 
+- Script manager control<br>
+Syntax:-<br>
+<form id="form1" runat="server">
+        <div>
+      <asp:ScriptManager ID="ScriptManager1" runat="server" />
+   </div>
+   
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+      <ContentTemplate>
+         <asp:Button ID="btnpartial" runat="server" onclick="btnpartial_Click" Text="Partial PostBack"/>
+         <br />
+         <br />
+         <asp:Label ID="lblpartial" runat="server"></asp:Label>
+      </ContentTemplate>
+   </asp:UpdatePanel><br>
+   
 # Update Panel Control
 - The UpdatePanel control is a container control and derives from the Control class. 
 - It acts as a container for the child controls within it and does not have its own interface.
