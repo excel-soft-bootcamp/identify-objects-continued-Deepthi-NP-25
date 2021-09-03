@@ -7,21 +7,6 @@
 - Among them are:-
 - Update panel control
 - Script manager control<br>
-Syntax:-<br>
-<form id="form1" runat="server">
-        <div>
-      <asp:ScriptManager ID="ScriptManager1" runat="server" />
-   </div>
-   
-        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-      <ContentTemplate>
-         <asp:Button ID="btnpartial" runat="server" onclick="btnpartial_Click" Text="Partial PostBack"/>
-         <br />
-         <br />
-         <asp:Label ID="lblpartial" runat="server"></asp:Label>
-      </ContentTemplate>
-   </asp:UpdatePanel><br>
-   
 # Update Panel Control
 - The UpdatePanel control is a container control and derives from the Control class. 
 - It acts as a container for the child controls within it and does not have its own interface.
@@ -42,6 +27,20 @@ The behavior of the update panel depends upon the values of the UpdateMode prope
 |Always|True|UpdatePanel refreshes if whole page refreshes or a child control on it posts back|
 |Conditional|False|UpdatePanel refreshes if whole page refreshes or a triggering control outside it initiates a refresh|
 |Conditional|True|UpdatePanel refreshes if whole page refreshes or a child control on it posts back or a triggering control outside it initiates a refresh|
+ Syntax:-<br>
+        <form id="form1" runat="server">
+        <div>
+      <asp:ScriptManager ID="ScriptManager1" runat="server" />
+   </div>
+   
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+      <ContentTemplate>
+         <asp:Button ID="btnpartial" runat="server" onclick="btnpartial_Click" Text="Partial PostBack"/>
+         <br />
+         <br />
+         <asp:Label ID="lblpartial" runat="server"></asp:Label>
+      </ContentTemplate>
+   </asp:UpdatePanel><br>
 # The ScriptManager Control
 - The ScriptManager control is the most important control and must be present on the page for other controls to work.<br>
 Syntax:-<br>
