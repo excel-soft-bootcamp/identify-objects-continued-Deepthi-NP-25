@@ -2,6 +2,7 @@
 - AJAX stands for Asynchronous JavaScript and XML.
 - This is a cross platform technology which speeds up response time. 
 - The AJAX server controls add script to the page which is executed and processed by the browser.
+- AJAX server controls have methods and event handlers associated with them, which are processed on the server side.
 - The control toolbox in the Visual Studio IDE contains a group of controls called the 'AJAX Extensions':- 
 - Among them are:-
 - Update panel control
