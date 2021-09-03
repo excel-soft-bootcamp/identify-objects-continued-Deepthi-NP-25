@@ -15,18 +15,6 @@ Syntax:-<br>
 string time = DateTime.Now.ToLongTimeString();<br>
 lblpartial.Text = "Showing time from panel" + time;<br>
 lbltotal.Text = "Showing time from outside" + time;<br>
-- Update panel control has the following properties:-<br>
-ChildrenAsTriggers, ContentTemplate, ContentTemplateContainer, IsInPartialRendering, RenderMode, UpdateMode, Triggers<br>
-- Methods of the UpdatePanel Control<br>
-CreateContentTemplateContainer, CreateControlCollection, Initialize, Update<br>
-The behavior of the update panel depends upon the values of the UpdateMode property and ChildrenAsTriggers property<br>
-
-|UpdateMode|ChildrenAsTriggers|Effect|
-|-----------|-----------------|-----------|
-|Always|False|Illegal parameters|
-|Always|True|UpdatePanel refreshes if whole page refreshes or a child control on it posts back|
-|Conditional|False|UpdatePanel refreshes if whole page refreshes or a triggering control outside it initiates a refresh|
-|Conditional|True|UpdatePanel refreshes if whole page refreshes or a child control on it posts back or a triggering control outside it initiates a refresh|
  Syntax:-<br>
         <form id="form1" runat="server">
         <div>
