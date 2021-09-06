@@ -19,7 +19,7 @@
 - DetailsView
 - FormView
 - GridView
-- RecordList
+- Repeater
 
 
 
